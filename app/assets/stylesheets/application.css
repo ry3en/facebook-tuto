@@ -1,3 +1,22 @@
+
+
+
+body
+{
+  background: url('img/ce.jpg') no-repeat fixed;
+}
+
+
+
+.container
+{
+padding-top: 10px;
+width: auto;
+height: auto;
+}
+
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

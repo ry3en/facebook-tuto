@@ -1,0 +1,48 @@
+
+<div class="container Singup ">
+
+  <div class="row">
+
+    <div class="col-md-4 jumbotron">
+
+        <center>
+                <form class="new_user" id="new_user" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wxUkniCozSId20uWNTrR+JbAEV7CFOhsQXxanFnyFOb35VZh04+6sRv6+PUEBrJvXTQ1RZu4NHWLrac1YwydGw==" />
+
+                      <div class="form-group">
+                        <h1>Crear Cuenta</h1>
+                      </div>
+
+                      <div class="form-group field">
+                        <label for="user_email">Correo electronico:</label><br />
+                        <input autofocus="autofocus" autocomplete="email" type="email" value="" name="user[email]" id="user_email" />
+                      </div>
+
+                      <div class="form-group field">
+                        <label for="user_password">Contraseña:</label>
+                        <em>(6 caracteres minimos)</em>
+                        <br />
+                        <input autocomplete="off" type="password" name="user[password]" id="user_password" />
+                      </div>
+
+                      <div class="form-group field">
+                        <label for="user_password_confirmation">Confirmacion de contraseña:</label><br />
+                        <input autocomplete="off" type="password" name="user[password_confirmation]" id="user_password_confirmation" />
+                      </div>
+
+                      <div class="form-group actions">
+                        <input class="btn btn-success" type="submit" name="commit" value="Crear cuenta" data-disable-with="Sing up" />
+                      </div>
+                      <div class="form-group">
+                        <a href="/users/sign_in">Ya tengo cuenta</a><br />
+                      </div>
+
+        </form>
+
+
+        </center>
+
+    </div>
+
+  </div>
+
+</div>

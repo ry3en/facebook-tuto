@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'partials/nav'
+
   devise_for :users
 
   authenticated :user do

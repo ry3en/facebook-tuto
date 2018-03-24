@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="jumbotron center-block">
+      <center>
+        <h2>¿Olvidaste tu contraseña?</h2>
+
+<form class="new_user" id="new_user" action="/users/password" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5qdqxYXduP8XVmVj/WOJHNGf/W31thI0MSl2OT774tuN+W+7C15Dky0GK/MDjOCB0CnDi/LaOWTIVjsCPLej1w==" />
+
+
+  <div class="form-group field">
+    <label for="user_email">Ingresa tu correo electronico: </label><br />
+    <input autofocus="autofocus" autocomplete="email" type="email" value="" name="user[email]" id="user_email" />
+  </div>
+
+  <div class="form-group actions btn btn-warning">
+    <input type="submit" name="commit" value="Enviame las instruciones de recuperación" data-disable-with="Send me reset password instructions" />
+  </div>
+
+  <div class="form-group">
+    <a href="/users/sign_in">Ya tengo cuenta</a><br />
+  </div>
+
+    <div class="form-group">
+      <a href="/users/sign_up">Registrarme</a><br />
+    </div>
+
+
+</form>
+
+
+</center>
+</div>
+
+</div>
